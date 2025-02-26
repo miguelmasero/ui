@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "cd apps/v4 && npx next build",
-  "outputDirectory": "apps/v4/.next"
+  "projectSettings": {
+    "framework": "nextjs",
+    "buildCommand": null,
+    "devCommand": null,
+    "installCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": "apps/v4"
+  }
 }
