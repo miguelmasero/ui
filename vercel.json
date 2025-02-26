@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "projectSettings": {
-    "framework": "nextjs",
-    "buildCommand": null,
-    "devCommand": null,
-    "installCommand": null,
-    "outputDirectory": null,
-    "rootDirectory": "apps/v4"
-  }
+  "outputDirectory": ".next",
+  "rootDirectory": "apps/v4"
 }
