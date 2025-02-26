@@ -1,6 +1,6 @@
 import { cookies } from "next/headers"
 
-import { AppSidebar } from "@/components/app-sidebar"
+import { AppSidebar } from "@/registry/new-york-v4/blocks/sidebar-07/components/app-sidebar"
 import { ModeSwitcher } from "@/components/mode-switcher"
 import { NavHeader } from "@/components/nav-header"
 import { Separator } from "@/registry/new-york-v4/ui/separator"
