@@ -23,7 +23,8 @@
     "react-dom": "^18.2.0",
     "tailwind-merge": "^3.0.1",
     "tailwindcss": "^4.0.7",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vite-with-tailwind": "file:"
   },
   "devDependencies": {
     "@types/node": "^22.13.4",

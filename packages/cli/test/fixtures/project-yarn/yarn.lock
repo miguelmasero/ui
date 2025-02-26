@@ -2,3 +2,8 @@
 # yarn lockfile v1
 
 
+"test-cli-project-yarn@file:":
+  version "1.0.0"
+  resolved "file:"
+  dependencies:
+    test-cli-project-yarn "file:"
