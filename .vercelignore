@@ -1,0 +1,4 @@
+.git
+packages/*
+apps/*
+!apps/v4

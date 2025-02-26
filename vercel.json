@@ -1,5 +1,6 @@
 {
   "version": 2,
-  "outputDirectory": ".next",
-  "rootDirectory": "apps/v4"
+  "outputDirectory": "apps/v4/.next",
+  "installCommand": "npm install -g pnpm && pnpm install --no-frozen-lockfile",
+  "buildCommand": "cd apps/v4 && pnpm exec next build"
 }
