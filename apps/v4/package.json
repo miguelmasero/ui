@@ -57,7 +57,7 @@
     "geist": "^1.2.2",
     "input-otp": "^1.4.2",
     "lucide-react": "0.474.0",
-    "next": "15.2.0-canary.33",
+    "next": "14.2.0",
     "next-themes": "^0.4.3",
     "postcss": "^8.5.1",
     "react": "^19.0.0",
@@ -85,7 +85,7 @@
     "@types/react-dom": "^19",
     "@typescript-eslint/parser": "^5.59.7",
     "eslint": "^9",
-    "eslint-config-next": "15.2.0-canary.33",
+    "eslint-config-next": "14.2.0",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5"

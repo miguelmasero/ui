@@ -1,10 +1,7 @@
 {
   "version": 2,
-  "installCommand": "npm install --force",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ]
+  "installCommand": "npm install -g pnpm && pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "apps/v4/.next",
+  "framework": "nextjs"
 }
