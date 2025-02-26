@@ -1,8 +1,14 @@
 import * as React from "react"
 import { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { registryItemSchema } from "shadcn/registry"
 import { z } from "zod"
+
+const registryItemSchema = z.object({
+  name: z.string(),
+  type: z.string(),
+  description: z.string().optional(),
+  meta: z.object({ container: z.string().optional() }).optional()
+})
 
 import { getRegistryComponent, getRegistryItem } from "@/lib/registry"
 import { absoluteUrl, cn } from "@/lib/utils"
@@ -27,7 +33,7 @@ export async function generateMetadata({
   }
 
   const title = item.name
-  const description = item.description
+  const description = item.description  
 
   return {
     title: `${item.name}${item.description ? ` - ${item.description}` : ""}`,

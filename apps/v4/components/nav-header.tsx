@@ -23,17 +23,17 @@ export function NavHeader() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild data-active={pathname === "/charts"}>
-            <Link href="/charts">Charts</Link>
+            <Link href="/charts">Clients</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild data-active={pathname === "/forms"}>
-            <Link href="/forms">Forms</Link>
+            <Link href="/forms">Payments</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild data-active={pathname === "/login"}>
-            <Link href="/login">Login</Link>
+            <Link href="/login">Settings</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

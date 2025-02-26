@@ -14,16 +14,12 @@ import {
   SquareTerminal,
 } from "lucide-react"
 
-import { NavMain } from "@/registry/new-york-v4/blocks/sidebar-07/components/nav-main"
-import { NavProjects } from "@/registry/new-york-v4/blocks/sidebar-07/components/nav-projects"
-import { NavUser } from "@/registry/new-york-v4/blocks/sidebar-07/components/nav-user"
 import { TeamSwitcher } from "@/registry/new-york-v4/blocks/sidebar-07/components/team-switcher"
+import { NavUser } from "@/registry/new-york-v4/blocks/sidebar-07/components/nav-user"
 import {
   Sidebar,
-  SidebarContent,
   SidebarFooter,
   SidebarHeader,
-  SidebarRail,
 } from "@/registry/new-york-v4/ui/sidebar"
 
 // This is sample data.
@@ -162,14 +158,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       <SidebarHeader>
         <TeamSwitcher teams={data.teams} />
       </SidebarHeader>
-      <SidebarContent>
-        <NavMain items={data.navMain} />
-        <NavProjects projects={data.projects} />
-      </SidebarContent>
       <SidebarFooter>
         <NavUser user={data.user} />
       </SidebarFooter>
-      <SidebarRail />
     </Sidebar>
   )
 }
