@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "installCommand": "npm install --force",
-  "buildCommand": "cd apps/v4 && npm run build",
-  "outputDirectory": "apps/v4/.next",
-  "framework": "nextjs"
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "cd apps/v4 && npx next build",
+  "outputDirectory": "apps/v4/.next"
 }
