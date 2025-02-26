@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "installCommand": "npm install -g pnpm && pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm build",
+  "installCommand": "npm install --force",
+  "buildCommand": "cd apps/v4 && npm run build",
   "outputDirectory": "apps/v4/.next",
   "framework": "nextjs"
 }
